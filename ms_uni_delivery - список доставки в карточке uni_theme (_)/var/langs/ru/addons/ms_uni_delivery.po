@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ms_uni_delivery"
+msgid "ms uni delivery"
+msgstr "[MakeShop.pro] Список вариантов доставки в карточке товара"
+
+msgctxt "Addons::description::ms_uni_delivery"
+msgid "uni delivery"
+msgstr "Модуль добавляет список доставки в стандартное отображение карточки товара в uni_theme. Разработано в <a target=\"_blank\" href=\"https://MakeShop.pro/\">MakeShop.pro</a>"
+
+
+msgctxt "Languages::motiv_template"
+msgid "Шаблон ms_uni_delivery"
+msgstr "Шаблон ms_uni_delivery"
+
+
+
+msgctxt "SettingsSections::ms_uni_delivery::general"
+msgid "Настройки"
+msgstr "Настройки"
+
+
+msgctxt "SettingsOptions::ms_uni_delivery::show_delivery"
+msgid "Показывать блок с доставкой раскрытой"
+msgstr "Показывать блок с доставкой раскрытой"

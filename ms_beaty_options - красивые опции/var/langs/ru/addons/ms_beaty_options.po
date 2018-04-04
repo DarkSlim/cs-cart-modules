@@ -1,0 +1,111 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ms_beaty_options"
+msgid "ms beaty options"
+msgstr "[MakeShop.pro] Удобное отображение опций товара"
+
+msgctxt "Addons::description::ms_beaty_options"
+msgid "Beaty options"
+msgstr "Выводит опции блоками. Разработано в <a target=\"_blank\" href=\"http://MakeShop.pro/\">MakeShop.pro</a>"
+
+msgctxt "Languages::ms_beaty_options"
+msgid "MS Convenient display of product options"
+msgstr "MS Удобное отображение опций товара"
+
+msgctxt "SettingsSections::ms_beaty_options::general"
+msgid "Settings"
+msgstr "Основные настройки"
+
+msgctxt "SettingsOptions::ms_beaty_options::input_color"
+msgid "What is the color option called"
+msgstr "Как называется опция с цветом"
+
+msgctxt "SettingsOptions::ms_beaty_options::input_size"
+msgid "What is the size option called"
+msgstr "Как называется опция с размером"
+
+msgctxt "SettingsOptions::ms_beaty_options::use_blocks_for_color"
+msgid "Use squares with colors"
+msgstr "Использовать квадраты с цветами"
+
+msgctxt "SettingsOptions::ms_beaty_options::use_blocks_for_size"
+msgid "Use rectangles with dimensions"
+msgstr "Использовать прямоугольники с размерами"
+
+msgctxt "SettingsOptions::ms_beaty_options::display_options_in_category"
+msgid "Show options in categories"
+msgstr "Показывать опции в категориях"
+
+msgctxt "SettingsOptions::ms_beaty_options::use_colors_filters"
+msgid "Use custom colors filters"
+msgstr "Показывать модифицированные фильтры с цветами"
+
+
+
+msgctxt "SettingsOptions::ms_beaty_options::show_options_in_categories"
+msgid "How to show options in categories"
+msgstr "Показывать опции в категориях"
+
+msgctxt "SettingsVariants::ms_beaty_options::show_options_in_categories::hover"
+msgid "When hover to product"
+msgstr "При наведении на товар"
+
+msgctxt "SettingsVariants::ms_beaty_options::show_options_in_categories::static"
+msgid "Without hover to product"
+msgstr "Без наведения на товар"
+
+msgctxt "SettingsOptions::ms_beaty_options::show_options_in_categories_without_amount"
+msgid "Show options in categories without amount"
+msgstr "Показывать опции в категориях, если их нет в наличии"
+
+msgctxt "SettingsSections::ms_beaty_options::configuration"
+msgid "Color settings"
+msgstr "Настройки цветов"
+
+msgctxt "Languages::ms_beaty_options.all_colors_ms"
+msgid "all_colors_ms"
+msgstr "Все цвета"
+
+msgctxt "Languages::ms_beaty_options.this_ms"
+msgid "this_ms"
+msgstr "тут"
+
+msgctxt "Languages::ms_beaty_options.other"
+msgid "other"
+msgstr "Их также можно получить из блока Модули -> MS Удобное отображение опций товара"
+
+msgctxt "Languages::ms_beaty_options.all_colors_search"
+msgid "all_colors_search"
+msgstr "Все найденные цвета"
+
+msgctxt "Languages::ms_beaty_options.automatic_colors"
+msgid "automatic_colors"
+msgstr "Автоматическая постановка цветов:"
+
+msgctxt "Languages::ms_beaty_options.carry_out"
+msgid "carry_out"
+msgstr "Выполнить"
+
+msgctxt "Languages::ms_beaty_options.name"
+msgid "name"
+msgstr "Название"
+
+msgctxt "Languages::ms_beaty_options.code"
+msgid "code"
+msgstr "Код"
+
+msgctxt "Languages::ms_beaty_options.copy"
+msgid "copy"
+msgstr "Скопировать коды цветов из набора Яндекс Маркета?"
+
+msgctxt "Languages::ms_beaty_options.save"
+msgid "save"
+msgstr "Сохранить"
+
+msgctxt "Languages::ms_beaty_options.double_colors"
+msgid "double_colors"
+msgstr "Если используются двойные цвета, они должны быть написаны опциях через слэш, например: "Белый/Черный""

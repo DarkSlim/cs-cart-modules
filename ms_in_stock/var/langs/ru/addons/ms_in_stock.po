@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /addons/ms_in_stock.po\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <zeke@cs-cart.com>\n"
+"PO-Revision-Date: 2015-09-14 06:01-0400\n"
+
+
+msgctxt "Addons::name::ms_in_stock"
+msgid "ms_in_stock"
+msgstr "[MakeShop.pro] На складе"
+
+msgctxt "Addons::description::ms_in_stock"
+msgid "Added field In stock while creating an order. Developed by <a target=\"_blank\" href=\"http://MakeShop.pro\">MakeShop.pro</a>"
+msgstr "Модуль отображает оставшееся количество товара. Разработано в <a target=\"_blank\" href=\"http://MakeShop.pro\">MakeShop.pro</a>"

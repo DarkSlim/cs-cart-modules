@@ -1,0 +1,4 @@
+/* поменять отступы у описания доставки на детальной странице товара */
+.ty-product-detail .ms_uni_delivery p.shipping_description {
+    padding: 2px;
+}

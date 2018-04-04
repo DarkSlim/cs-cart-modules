@@ -1,0 +1,17 @@
+/* Блок отзыва */
+.ty-ms-yandex-opinions-native-post {width:auto;margin:30px 10px 10px 10px;}
+.ty-ms-yandex-opinions-native-post:first-child {margin-top: 10px;}
+	.ty-ms-yandex-opinions-native-post-header {}
+		.ty-ms-yandex-opinions-native-post-header-photo {float:left;width:36px;height:36px;}
+		.ty-ms-yandex-opinions-native-post-header-name {float:left;padding:0 0 0 25px;color:#000;font:bold 14px/36px 'Open Sans',sans-serif;}
+		.ty-ms-yandex-opinions-native-post-header-name.no-avatar{ padding:0; }
+
+	.ty-ms-yandex-opinions-native-post-body {margin-top:20px;position:relative;border:1px solid #dce3ea;padding:12px 15px 17px;}
+		.ty-ms-yandex-opinions-native-img {position:absolute;left:19px;top:-16px;width:19px;height:19px;background:url(images/addons/ms_yandex_opinions/images/t2.png) no-repeat;}
+		.ty-ms-yandex-opinions-native-number {margin: 0 0 10px 0;float:left;font:bold 15px 'Open Sans',sans-serif;color:#2e3a47;line-height:120%;}
+		.ty-ms-yandex-opinions-native-attrs {margin: 0 0 10px 0;float:right;font:13px 'Open Sans',sans-serif;color:#999;line-height:120%;}
+		.ty-ms-yandex-opinions-native-rate {margin:0 0 10px 0;}
+		.ty-ms-yandex-opinions-native-text {margin:0 0 15px 0;font:13px'Open Sans',sans-serif;color:#2e3a47;line-height:120%;}
+		.ty-ms-yandex-opinions-native-text p {padding:5px 0;}
+		.ty-ms-yandex-opinions-native-answer {margin:0 0 0 25px;padding:5px 10px 10px 20px;background:#f6f5f3;border:1px solid #efefef;font:13px'Open Sans',sans-serif;color:#2e3a47;line-height:120%;}
+			.ty-ms-yandex-opinions-native-answer span {font-weight:bold;line-height:200%;}

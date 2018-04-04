@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ms_cryptonator"
+msgid "[MakeShop.pro] Cryptonator Payments"
+msgstr "[MakeShop.pro] Cryptonator Payments"
+
+msgctxt "Addons::description::ms_cryptonator"
+msgid "Модуль добавляет возможность оплаты криптовалютами через Cryptonator. Разработано в <a target=\"_blank\" href=\"https://MakeShop.pro\">MakeShop.pro</a>"
+msgstr "The module adds the ability to pay crypto-currencies through Cryptonator. Developed by <a target=\"_blank\" href=\"https://MakeShop.pro\">MakeShop.pro</a>"
+
+msgctxt "Languages::cryptocurrency_payments"
+msgid "Оплата криптовалютами"
+msgstr "Cryptonator Payments"
+
+msgctxt "Languages::cryptonator.merchant_id"
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "Languages::cryptonator.secret"
+msgid "Secret"
+msgstr "Secret"
+
+msgctxt "Languages::addons.cryptonator.logging"
+msgid "Logging"
+msgstr "Logging"
+
+msgctxt "Languages::pay_cryptonator"
+msgid "Cryptonator"
+msgstr "Cryptonator"
+
+msgctxt "Languages::select_cryptonator_payment"
+msgid "Select pay method"
+msgstr "Select pay method"
+
+msgctxt "Languages::cryptonator_payment_types"
+msgid "Payment types"
+msgstr "Payment types"
+
+msgctxt "Languages::cryptonator_payment_bitcoin"
+msgid "Bitcoin BTC"
+msgstr "Bitcoin BTC"
+
+msgctxt "Languages::cryptonator_payment_bitcoincash"
+msgid "Bitcoincash BCH"
+msgstr "Bitcoincash BCH"
+
+msgctxt "Languages::cryptonator_payment_blackcoin"
+msgid "Blackcoin BLK"
+msgstr "Blackcoin BLK"
+
+msgctxt "Languages::cryptonator_payment_bytecoin"
+msgid "Bytecoin BCN"
+msgstr "Bytecoin BCN"
+
+msgctxt "Languages::cryptonator_payment_dash"
+msgid "Dash DASH"
+msgstr "Dash DASH"
+
+msgctxt "Languages::cryptonator_payment_dogecoin"
+msgid "Dogecoin DOGE"
+msgstr "Dogecoin DOGE"
+
+msgctxt "Languages::cryptonator_payment_emercoin"
+msgid "Emercoin EMC"
+msgstr "Emercoin EMC"
+
+msgctxt "Languages::cryptonator_payment_ethereum"
+msgid "Ethereum ETH"
+msgstr "Ethereum ETH"
+
+msgctxt "Languages::cryptonator_payment_litecoin"
+msgid "Litecoin LTC"
+msgstr "Litecoin LTC"
+
+msgctxt "Languages::cryptonator_payment_monero"
+msgid "Monero XMR"
+msgstr "Monero XMR"
+
+msgctxt "Languages::cryptonator_payment_peercoin"
+msgid "Peercoin PPC"
+msgstr "Peercoin PPC"
+
+msgctxt "Languages::cryptonator_payment_primecoin"
+msgid "Primecoin XPM"
+msgstr "Primecoin XPM"
+
+msgctxt "Languages::cryptonator_payment_reddcoin"
+msgid "Reddcoin RDD"
+msgstr "Reddcoin RDD"
+
+msgctxt "Languages::cryptonator_payment_ripple"
+msgid "Ripple XRP"
+msgstr "Ripple XRP"
+
+msgctxt "Languages::cryptonator_payment_zcash"
+msgid "Zcash ZEC"
+msgstr "Zcash ZEC"
+
+msgctxt "Languages::text_cryptonator_tech_urls"
+msgid "Use the following URLs in Cryptonator settings:<br /><table class=\"table table-middle\"><thead><tr>    <th width=\"20%\" class=\"left\">    <th width=\"80%\" class=\"left\"></tr></thead><tr>    <td class=\"left\">        <b>Callback URL:</b>    </td>    <td class=\"left\">        [callback_url]    </td></tr>tr><td class=\"left\"><b>Fail/cancel URL:</b></td><td class=\"left\">[fail_url]</td></tr><tr>    <td class=\"left\">        <b>Success URL:</b>    </td>    <td class=\"left\">        [success_url]    </td></tr></table><a href=\"https://ru.cryptonator.com/auth/signup/\" target=\"_blank\">Merchant Account Request</a>"
+msgstr "Use the following URLs in Cryptonator settings:<br /><table class=\"table table-middle\"><thead><tr>    <th width=\"20%\" class=\"left\">    <th width=\"80%\" class=\"left\"></tr></thead><tr>    <td class=\"left\">        <b>Callback URL:</b>    </td>    <td class=\"left\">        [callback_url]    </td></tr>tr><td class=\"left\"><b>Fail/cancel URL:</b></td><td class=\"left\">[fail_url]</td></tr><tr>    <td class=\"left\">        <b>Success URL:</b>    </td>    <td class=\"left\">        [success_url]    </td></tr></table><a href=\"https://ru.cryptonator.com/auth/signup/\" target=\"_blank\">Merchant Account Request</a>"
+
+msgctxt "Languages::text_cryptonator_https"
+msgid "<b>SSL certificate is necessary to receive payments."
+msgstr "<b>SSL certificate is necessary to receive payments."
+
+msgctxt "Languages::cryptonator.cryptonator_money_payer"
+msgid "Payer"
+msgstr "Payer"
+
+msgctxt "Languages::cryptonator.cryptonator_money_payee"
+msgid "Payee"
+msgstr "Payee"
+
+msgctxt "Languages::cryptonator.cryptonator_money_payee_id"
+msgid "Wallet number"
+msgstr "Wallet number"
+
+msgctxt "Languages::cryptonator.cryptonator_payment_order"
+msgid "Order #[order_id] payment"
+msgstr "Order #[order_id] payment"
+
+msgctxt "Languages::cryptonator_invoice_id"
+msgid "Invoice ID"
+msgstr "Invoice ID"
+
+msgctxt "Languages::cryptonator_invoice_id"
+msgid "Invoice ID"
+msgstr "Invoice ID"
+
+msgctxt "Languages::cryptonator_payment_amount"
+msgid "Amount"
+msgstr "Amount"
+
+msgctxt "Languages::cryptonator_payment_type"
+msgid "Checkout currency"
+msgstr "Checkout currency"
+
+msgctxt "Languages::cryptonator_merchant_order_id"
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "Languages::cryptonator_confirmed_time"
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgctxt "Languages::cryrptonator_canceled_time"
+msgid "Canceled"
+msgstr "Canceled"

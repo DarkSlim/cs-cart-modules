@@ -1,0 +1,16 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ms_in_stock"
+msgid "ms_in_stock"
+msgstr "[MakeShop.pro] In stock"
+
+msgctxt "Addons::description::ms_in_stock"
+msgid "Added field in_stock while creating an order. Developed by <a target=\"_blank\" href=\"http://MakeShop.pro/\">MakeShop.pro</a>"
+msgstr "Added field in_stock while creating an order. Developed by <a target=\"_blank\" href=\"http://MakeShop.pro/\">MakeShop.pro</a>"
+
+
+

@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ms_roistat"
+msgid "ms roistat"
+msgstr "[MakeShop.pro] Интеграция с сервисом Roistat"
+
+msgctxt "Addons::description::ms_roistat"
+msgid "roistat"
+msgstr "Модуль передаёт roistat_visit в Мой Склад. Разработано в <a target=\"_blank\" href=\"https://MakeShop.pro/\">MakeShop.pro</a>"
+
+msgctxt "SettingsOptions::ms_roistat::roistat_client_id"
+msgid "Введите ID вашего аккаунта"
+msgstr "Введите ID вашего аккаунта"
+
+msgctxt "SettingsOptions::ms_roistat::show_id_in_order"
+msgid "Show id in order"
+msgstr "Отображать id визита Roistat в заказе"
+
+msgctxt "Languages::block_ms_roistat"
+msgid "MS Roistat"
+msgstr "MS Roistat"
+
+msgctxt "Languages::block_ms_roistat_description"
+msgid "Интеграция с сервисом"
+msgstr "Интеграция с сервисом"
+
+
+msgctxt "Languages::ms_roistat"
+msgid "Шаблон ms_roistat"
+msgstr "Шаблон ms_roistat"
+

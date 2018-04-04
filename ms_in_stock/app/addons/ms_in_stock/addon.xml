@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ms_in_stock</id>
+    <version>1.2.0</version>
+    <status>active</status>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+
+    <has_icon>Y</has_icon>
+    <supplier>MakeShop.pro</supplier>
+    <supplier_link>http://MakeShop.pro/</supplier_link>    
+
+    <language_variables>
+        <item lang="en" id="in_stock">In stock</item>
+        <item lang="ru" id="in_stock">На складе</item>
+    </language_variables>
+    
+</addon>
+
+
+
+
+

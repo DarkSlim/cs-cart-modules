@@ -1,0 +1,4 @@
+/* убираем блок с id пользователя */
+div.roistat-promo-wrap {
+    display: none;
+}

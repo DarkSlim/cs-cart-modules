@@ -1,0 +1,153 @@
+.size_block label, .color_block label {
+    position: relative;
+}
+
+.ms_beaty:before {
+	content: '';
+	border: 1px solid #c2c5c8;
+	background: #fff;
+	position: absolute !important;
+	width: 14px;
+	height: 14px;
+}
+
+.ms_beaty:after {
+	content: '\e90a';
+	font-family: unitheme;
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	color: @links;
+	background: #ffc757;
+	border: 1px solid #ffc757;
+	transition: all .2s;
+}
+
+.size_block label  > span {
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    background: #bdbdbd;
+    min-width: 30px;
+    margin-bottom: 2px;
+}
+
+.color_block label  > span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+
+}
+
+.disabled {
+	opacity: 0.5;
+}
+
+
+.size_block input:checked + label span, .color_block input:checked + label span {
+    box-shadow: 0 0 0px 2px #ff5319;
+}
+
+.size_block label > span[data-size]:after {
+    display: inline-block;
+    content: attr(data-size);
+    text-align: center;
+    color: #463e3e;
+}
+
+/* опции в категориях */
+.boxes-li {
+    border: 2px solid #d9d9d9;
+    color: #4d3a4b;
+    padding: 0px 5px;
+    background-color: #fff;
+    display: inline-block;
+    cursor: default;
+    -webkit-transition: all 0.3s ease;
+
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 3px;
+}
+
+ul.color li {
+    width: 20px;
+    height: 20px;
+}
+
+/* для заголовков */
+ul li.boxes-list {
+    width: 100%;
+}
+
+
+.color_block .radio, .size_block .radio{
+    display: none;
+}
+
+
+/* для фильтров */
+li.colors_filter {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+label.boxes-li {
+    width: 24px !important;
+    height: 24px !important;
+    padding: 0px;
+}
+
+label.boxes-li:hover {
+    box-shadow: 0 0 0px 2px #ff5319;
+}
+
+/* отключить галочки для юни темы*/
+.cat-product-filters li.colors_filter label.boxes-li:after, .cat-product-filters li.colors_filter label.boxes-li:before {
+    display: none !important;
+}
+
+/* отключить доп отступы для юни темы */
+.cat-product-filters li.colors_filter label.boxes-li {
+    padding: 0px !important;
+}
+/* прокрутка для таблицы с цветами */
+.ty-product-filters__variants {
+	overflow-y:auto !important;
+}
+
+/* полупрозрачный цвет для неактивных фильтров */
+input.cm-product-filters-checkbox:disabled + label {
+	/*background: #cacaca !important;*/
+	opacity: 0.3;
+}
+
+.ty-product-filters__wrapper [type="checkbox"]:not(:checked) + label.boxes-li:before, .ty-product-filters__wrapper [type="checkbox"]:checked + label.boxes-li:before{
+	border: none !important;
+	background: none !important;
+	content: none !important;	
+}
+
+.ty-product-filters__wrapper [type="checkbox"]:not(:checked) + label.boxes-li, .ty-product-filters__wrapper [type="checkbox"]:checked + label.boxes-li {
+	padding-left: 0px;
+}
+
+.ty-product-filters__wrapper [type="checkbox"]:not(:checked) + label.boxes-li:after, .ty-product-filters__wrapper [type="checkbox"]:checked + label.boxes-li:after{
+	border: 2px solid #ff5722 !important;
+	box-shadow: 0 0 0px 2px #ff5319;
+	background: none !important;
+	content: none !important;
+}
+
+.ty-product-filters__wrapper label.boxes-li:hover:before{
+	border: none !important;
+}

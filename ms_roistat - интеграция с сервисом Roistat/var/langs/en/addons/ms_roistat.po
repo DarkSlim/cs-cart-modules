@@ -1,0 +1,34 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ms_roistat"
+msgid "ms roistat"
+msgstr "[MakeShop.pro] Integration with Roystat"
+
+msgctxt "Addons::description::ms_roistat"
+msgid "roistat"
+msgstr "The module transmits roistat_visit to My Store (moysklad.ru). Developed by <a target=\"_blank\" href=\"https://MakeShop.pro/\">MakeShop.pro</a>"
+
+msgctxt "SettingsOptions::ms_roistat::roistat_client_id"
+msgid "Account ID"
+msgstr "Account ID"
+
+msgctxt "SettingsOptions::ms_roistat::show_id_in_order"
+msgid "Show id in order"
+msgstr "Show id Roistat visit in order"
+
+msgctxt "Languages::block_ms_roistat"
+msgid "MS Roistat"
+msgstr "MS Roistat"
+
+msgctxt "Languages::block_ms_roistat_description"
+msgid "Integration"
+msgstr "Integration"
+
+msgctxt "Languages::ms_roistat"
+msgid "Template ms_roistat"
+msgstr "Template ms_roistat"
+

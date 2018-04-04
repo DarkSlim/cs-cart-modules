@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ms_uni_delivery</id>
+    <version>1.2.1</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>ULTIMATE</auto_install>
+    <default_language>ru</default_language> 
+
+    <has_icon>Y</has_icon>
+    <supplier>MakeShop.pro</supplier>
+    <supplier_link>http://MakeShop.pro/</supplier_link> 
+
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+
+            <section id="general">
+                <items>
+                   
+                    <item id="show_delivery">                      
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>                    
+
+                </items>
+            </section>
+            
+        </sections>
+
+    </settings>
+
+</addon>

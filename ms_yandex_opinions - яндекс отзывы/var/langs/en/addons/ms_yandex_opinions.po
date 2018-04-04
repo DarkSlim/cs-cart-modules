@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ms_yandex_opinions"
+msgid "ms_yandex_opinions_name"
+msgstr "[MakeShop.pro] Reviews Yandex Market"
+
+msgctxt "Addons::description::ms_yandex_opinions"
+msgid "ms_yandex_opinions_description"
+msgstr "The module displays comments left by your customers in Yandex Market. Developed by <a target=\"_blank\" href=\"http://MakeShop.pro/\">MakeShop.pro</a>"

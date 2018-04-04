@@ -1,0 +1,297 @@
+﻿<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ms_yandex_opinions</id>
+    <version>0.0.6</version>
+    <status>active</status>
+	<has_icon>Y</has_icon>
+    <compatibility>
+        <dependencies>discussion</dependencies>
+    </compatibility>
+    
+    <name>[MakeShop.pro] Yandex.Opinios for shop</name>
+    <description><![CDATA[Showing opinions from about shop in block and paginated full list]]></description>
+    <translations>
+        <item for="description" lang="ru"><![CDATA[Отображает отзывы из Яндекс.Маркета к магазину в блоке и в полном постраничном списке]]></item>
+    </translations>
+	<supplier>MakeShop.pro</supplier>
+    <supplier_link>http://MakeShop.pro/</supplier_link>
+    <default_language>en</default_language>
+    
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="main">
+                <name>Main settings</name>
+                <translations>
+                    <item lang="ru">Основные настройки</item>
+                </translations>
+                <items>
+                    
+                    <item id="shop_id"><!-- $settings.ms_yandex_opinionsn.shop_id') -->
+                        <type>input</type>
+                        <name>Shop ID</name>
+                        <translations>
+							<item lang="ru">Идентификационный номер интернет-магазина</item>
+						</translations>
+						<default_value>00000</default_value>
+                    </item>
+                    
+                    <item id="key"><!-- $settings.ms_yandex_opinions.key -->
+                        <type>input</type>
+                        <name>API Key</name>
+                        <translations>
+							<item lang="ru">Ключ API</item>
+						</translations>
+						<default_value>api_key</default_value>
+                    </item>
+                    
+                    <item id="sample_data"><!-- $settings.ms_yandex_opinions.sample_data -->
+                        <type>checkbox</type>
+                        <name>Sample Data</name>
+                        <translations>
+							<item lang="ru">Данные из примера</item>
+						</translations>
+                    </item>
+                    
+                </items>
+            </section>
+            <section id="list">
+                <name>List settings</name>
+                <translations>
+                    <item lang="ru">Настройки списка</item>
+                </translations>
+                <items>
+                    
+                    <item id="count"><!-- $settings.ms_yandex_opinions.count -->
+                        <type>input</type>
+                        <name>Opinions count on list page</name>
+                        <translations>
+							<item lang="ru">Количество отзывов на странице списка</item>
+						</translations>
+						<default_value>10</default_value>
+                    </item>
+                    
+                    <item id="grade"><!-- $settings.ms_yandex_opinions.grade -->
+                        <type>selectbox</type>
+                        <name>Filter by grade on list page</name>
+                        <translations>
+							<item lang="ru">Фильтр по оценке на странице списка</item>
+						</translations>
+						<variants>
+                            <item id="filter_">
+                                <name>Do not filter</name>
+                                <translations>
+                                    <item lang="ru">Не фильтровать</item>
+                                </translations>
+                            </item>
+                            <item id="filter_-2">
+                                <name>Very bad</name>
+                                <translations>
+                                    <item lang="ru">Очень плохо</item>
+                                </translations>
+                            </item>
+                            <item id="filter_-1">
+                                <name>Bad</name>
+                                <translations>
+                                    <item lang="ru">Плохо</item>
+                                </translations>
+                            </item>
+                            <item id="filter_0">
+                                <name>Neutral</name>
+                                <translations>
+                                    <item lang="ru">Нормально</item>
+                                </translations>
+                            </item>
+                            <item id="filter_1">
+                                <name>Good</name>
+                                <translations>
+                                    <item lang="ru">Хорошо</item>
+                                </translations>
+                            </item>
+                            <item id="filter_2">
+                                <name>Very good</name>
+                                <translations>
+                                    <item lang="ru">Очень хорошо</item>
+                                </translations>
+                            </item>
+                        </variants>
+						<default_value>filter_</default_value>
+                    </item>
+                    
+                    <item id="max_comments"><!-- $settings.ms_yandex_opinions.max_comments -->
+                        <type>input</type>
+                        <name>Max. comments count in opinion on list page</name>
+                        <translations>
+							<item lang="ru">Максимальное количество комментариев к отзыву на странице списка</item>
+						</translations>
+						<default_value>10</default_value>
+                    </item>
+                    
+                    <item id="sort"><!-- $settings.ms_yandex_opinions.sort -->
+                        <type>selectbox</type>
+                        <name>Sorting by attribute on list page</name>
+                        <translations>
+							<item lang="ru">Сортировка по атрибуту на странице списка</item>
+						</translations>
+						<variants>
+                            <item id="grade">
+                                <name>By grade</name>
+                                <translations>
+                                    <item lang="ru">По оценке</item>
+                                </translations>
+                            </item>
+                            <item id="date">
+                                <name>By date</name>
+                                <translations>
+                                    <item lang="ru">По дате</item>
+                                </translations>
+                            </item>
+                            <item id="rank">
+                                <name>By rank</name>
+                                <translations>
+                                    <item lang="ru">По полезности</item>
+                                </translations>
+                            </item>
+                        </variants>
+						<default_value>date</default_value>
+                    </item>
+                    
+                    <item id="how"><!-- $settings.ms_yandex_opinions.how -->
+                       <type>selectbox</type>
+                        <name>Sorting order on list page</name>
+                        <translations>
+							<item lang="ru">Способ сортировки на странице списка</item>
+						</translations>
+						<variants>
+                            <item id="asc">
+                                <name>Ascending</name>
+                                <translations>
+                                    <item lang="ru">По возрастанию</item>
+                                </translations>
+                            </item>
+                            <item id="desc">
+                                <name>Descending</name>
+                                <translations>
+                                    <item lang="ru">По убыванию</item>
+                                </translations>
+                            </item>
+                        </variants>
+						<default_value>asc</default_value>
+                    </item>
+                    
+                </items>
+            </section>
+        </sections>
+    </settings>
+    
+	<language_variables>
+	    
+	    
+        <item lang="ru" id="block_ms_yandex_opinions">Яндекс отзывы для магазина</item>
+	    <item lang="en" id="block_ms_yandex_opinions">Yandex opinions for shop</item>
+	    
+        <item lang="ru" id="opinions_discussion">Отзывы с шаблоном модуля 'discussion'</item>
+	    <item lang="en" id="opinions_discussion">Opinions with template of addon 'discussion'</item>
+	    
+        <item lang="ru" id="opinions_native">Отзывы со своим шаблоном</item>
+	    <item lang="en" id="opinions_native">Opinions with own template</item>
+	    
+	    
+    
+        <item lang="ru" id="count">Количество</item>
+	    <item lang="en" id="count">Count</item>
+    
+        <item lang="ru" id="opinions">Отзывы</item>
+	    <item lang="en" id="opinions">Opinions</item>
+    
+        <item lang="ru" id="grade">Оценка</item>
+	    <item lang="en" id="grade">Grade</item>
+    
+        <item lang="ru" id="max_comments">Макс. кол-во комментариев</item>
+	    <item lang="en" id="max_comments">Max comments</item>
+    
+        <item lang="ru" id="sort">Сортировка</item>
+	    <item lang="en" id="sort">Sorting</item>
+    
+        <item lang="ru" id="how">Как</item>
+	    <item lang="en" id="how">How</item>
+	    
+        <item lang="ru" id="msyo_block_no_grade">Не фильтровать</item>
+	    <item lang="en" id="msyo_block_no_grade">Do not filter</item>
+	    
+        <item lang="ru" id="msyo_block_grade_-2">Очень плохо</item>
+	    <item lang="en" id="msyo_block_grade_-2">Very bad</item>
+	    
+        <item lang="ru" id="msyo_block_grade_-1">Плохо</item>
+	    <item lang="en" id="msyo_block_grade_-1">Bad</item>
+	    
+        <item lang="ru" id="msyo_block_grade_0">Нормально</item>
+	    <item lang="en" id="msyo_block_grade_0">Neutral</item>
+	    
+        <item lang="ru" id="msyo_block_grade_1">Хорошо</item>
+	    <item lang="en" id="msyo_block_grade_1">Good</item>
+	    
+        <item lang="ru" id="msyo_block_grade_2">Очень хорошо</item>
+	    <item lang="en" id="msyo_block_grade_2">Very good</item>
+	    
+	    
+	    
+        <item lang="ru" id="msyo_block_how_asc">По возрастанию</item>
+	    <item lang="en" id="msyo_block_how_asc">Ascending</item>
+	    
+        <item lang="ru" id="msyo_block_how_desc">По убыванию</item>
+	    <item lang="en" id="msyo_block_how_desc">Descending</item>
+	    
+	    
+	    
+        <item lang="ru" id="msyo_block_sort_grade">По оценке</item>
+	    <item lang="en" id="msyo_block_sort_grade">By grade</item>
+	    
+        <item lang="ru" id="msyo_block_sort_date">По дате</item>
+	    <item lang="en" id="msyo_block_sort_date">By date</item>
+	    
+        <item lang="ru" id="msyo_block_sort_rank">По полезности</item>
+	    <item lang="en" id="msyo_block_sort_rank">By rank</item>
+	    
+	    
+	    
+	    <item lang="ru" id="msyo_anonymous">Анонимно</item>
+		<item lang="en" id="msyo_anonymous">Anonymous</item>
+		
+		<item lang="ru" id="msyo_delivery">Доставка</item>
+		<item lang="en" id="msyo_delivery">Delivery</item>
+		
+		<item lang="ru" id="msyo_bought_in_shop">Покупка в магазине</item>
+		<item lang="en" id="msyo_bought_in_shop">Bought in shop</item>
+		
+		<item lang="ru" id="msyo_local_pickup">Самовывоз</item>
+		<item lang="en" id="msyo_local_pickup">Local pickup</item>
+		
+		<item lang="ru" id="msyo_cons">Недостатки</item>
+		<item lang="en" id="msyo_cons">Cons</item>
+		
+		<item lang="ru" id="msyo_prons">Достоинства</item>
+		<item lang="en" id="msyo_prons">Prons</item>
+
+		<item lang="ru" id="msyo_comment">Комментарий</item>
+		<item lang="en" id="msyo_comment">Comment</item>
+
+		<item lang="ru" id="msyo_shop">Магазин</item>
+		<item lang="en" id="msyo_shop">Shop</item>
+	    
+		<item lang="ru" id="msyo_order_no">Заказ №</item>
+		<item lang="en" id="msyo_order_no">Order #</item>
+	    
+	    
+		
+		<item lang="ru" id="no_opinions_found">Нет отзывов для показа</item>
+		<item lang="en" id="no_opinions_found">No opinions found</item>
+		
+		<item lang="ru" id="ms_yandex_opinions_list_title">Отзывы о интернет-магазине</item>
+		<item lang="en" id="ms_yandex_opinions_list_title">Opinions about web shop</item>
+	    
+		
+		
+		
+	</language_variables>
+    
+</addon>

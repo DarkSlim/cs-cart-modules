@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::ms_wholesale_price"
+msgid "Wholesale_price"
+msgstr "[MakeShop.pro] Wholesale price"
+
+msgctxt "Addons::description::ms_wholesale_price"
+msgid "description"
+msgstr "Shows description for price product (wholesale/retail). Developed by <a target=\"_blank\" href=\"https://MakeShop.pro/\">MakeShop.pro</a>"
+
+msgctxt "Languages::ms_wholesale_price.wholesale"
+msgid "Wholesale price: "
+msgstr "Wholesale price: "
+
+
+msgctxt "Languages::ms_wholesale_price.retail"
+msgid "Retail price: "
+msgstr "Retail price: "
+
+
+msgctxt "SettingsOptions::ms_wholesale_price::input_text"
+msgid "Write id user group for wholesale price"
+msgstr "Write id user group for wholesale price"
+
+

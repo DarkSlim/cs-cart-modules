@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ms_beaty_options</id>
+    <version>2.4.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>ULTIMATE</auto_install>
+    <default_language>en</default_language> 
+
+    <has_icon>Y</has_icon>
+    <supplier>MakeShop.pro</supplier>
+    <supplier_link>http://MakeShop.pro/</supplier_link> 
+
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+
+            <section id="general">
+                <items>
+                    <item id="input_color">
+                        <type>input</type>
+                        <default_value>Color</default_value>
+                    </item>
+
+                    <item id="input_size">
+                        <type>input</type>
+                        <default_value>Size</default_value>
+                    </item>
+
+                    <item id="use_blocks_for_color">                      
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="use_blocks_for_size">                      
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="display_options_in_category">                      
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                    <item id="show_options_in_categories_without_amount">                      
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+
+
+
+                    <item id="show_options_in_categories">
+                        <type>radiogroup</type>
+                        <default_value>static</default_value>                       
+                        <variants>                            
+                            <item id="hover"></item>
+                            <item id="static"></item>
+                        </variants>
+                    </item>
+
+                    <item id="use_colors_filters">                      
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                </items>
+            </section>
+
+            <section id="configuration" layout="separate" outside_of_form="true">
+                <items>
+                    <item id="template">
+                        <type>template</type>
+                        <default_value>admin_panel.tpl</default_value>
+                    </item>
+                    
+                </items>
+            </section>
+        </sections>
+
+    </settings>
+
+    <queries>
+        <item for="install"> 
+        	CREATE TABLE IF NOT EXISTS ?:ms_beaty_options_colors ( 
+            color_name VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
+            color_hex VARCHAR(7) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL);
+        </item>       
+
+    </queries>
+
+    <functions>
+        <item for="install">fn_ms_beaty_options_set_default_colors</item>      
+    </functions>
+</addon>

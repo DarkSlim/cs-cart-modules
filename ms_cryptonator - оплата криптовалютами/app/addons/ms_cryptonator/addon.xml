@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>ms_cryptonator</id>
+    <version>1.0.1</version>
+    <priority>4294967294</priority>
+	<position>0</position>
+    <has_icon>Y</has_icon>
+    <supplier>MakeShop.pro</supplier>
+    <supplier_link>http://MakeShop.pro/</supplier_link>
+    <auto_install>ULTIMATE,MULTIVENDOR</auto_install>
+	<status>active</status>
+
+    <compatibility>
+        <core_version>
+            <min>4.2.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <default_language>ru</default_language>
+
+    <functions>
+        <item for="install">fn_ms_cryptonator_install</item>
+        <item for="uninstall">fn_ms_cryptonator_uninstall</item>
+    </functions>
+
+</addon>
